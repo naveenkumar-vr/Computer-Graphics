@@ -1,0 +1,14 @@
+To start the program use the command: python3 -m http.server in the source directory or open index.html in the source directory.
+Instruction to use the application:
+Press 'm'                --------->  enter mesh-transformation mode
+Press '4 or 5 or 6 or 7' --------->  select a mesh.
+Press 'up,down'          --------->  move along y axis.
+Press 'right, left'      --------->  move along y axis.
+Press 'i, o'             --------->  move along z axis. 
+Press '+,-'              --------->  scale 
+Use left click           --------->  rotate 
+Press 's'                --------->  enter shading-model-choice mode
+Press 'l'                --------->  enter illuminator mode
+	Press '4 or 5 or 6 or 7' ----->  select a mesh(light)
+	Same keys for translation as above
+	Press '0 or 1'           ----->  off/on the light
