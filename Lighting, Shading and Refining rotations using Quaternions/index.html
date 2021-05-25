@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<script type="module" src="index.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js"></script>
+	<script type="text/javascript" src="trackball.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas></canvas>
+<div class="info">
+	<h3>Name: Naveen Kumar V R</h3>
+	<h3>Roll: IMT2017029</h3>
+	<hr>
+	<ul>
+		<li>Press 'm' to enter mesh-transformation mode</li>
+		<li>Press '4 or 5 or 6 or 7' to select a mesh.</li>
+		<li>Press 'up,down' to move along y axis.</li>
+		<li>Press 'right, left' to move along y axis.</li>
+		<li>Press 'i, o' to move along z axis. </li>
+		<li>Press '+,-' to scale </li>
+		<li>Use left click to rotate </li>
+		<li>Press 's' to enter ​shading-model-choice mode</li>
+		<li>Press 'l' to enter ​ illuminator mode​
+			<ul>
+			<li>Press '4 or 5 or 6 or 7' to select a mesh(light).</li>
+			<li>Same keys for translation as above</li>
+			<li>Press '0 or 1' to off/on the light</li>
+			</ul>
+		</li>
+	</ul>
+	<hr>	
+	<h4>selected mesh id: <span id="mesh"></span></h4>
+	<hr>	
+	NOTE: mesh-transformation and shading can work together
+	<h4>Mode: <span id="mode"></span></h4>
+	<hr>	
+	<h4>Shading: <span id="shade"></span></h4>
+	<hr>	
+	<h4>Last Key Pressed: <span id="key"></span></h4>
+
+</div>
+</body>
+</html>
+
+
