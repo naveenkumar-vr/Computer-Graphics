@@ -1,0 +1,16 @@
+To start the program use the command: python3 -m http.server in the source directory or open index.html in the source directory.
+Instruction to use the application:
+Press 'a'  --->  load the world coordinates
+Press 'c'  --->  load the objects into the world at origin.
+Press 'd'  --->  Position the objects at the corners of a triangle.
+Press 'e'  --->  Position the objects at the midpoints of the sides of the triangle.
+Press 'f'  --->  Rotate the objects by 90 degrees each object about a different axis.
+Press 'g'  --->  scale the 3 objects by 0.5x, 2x, 3x respectively.
+Press 'r'  --->  reset scale.
+Press 'h'  --->  enter pick mode
+    Now press 'o'  --->  pick object(default)
+Press 'i'  --->  enter camera mode
+    Now press 'x' or 'y' or 'z' to rotate the camera about the selected axis.
+    'y' is default.
+
+Notable defects: camera rotation about x and z axis don't work properly and face picking doesn't work properly.
