@@ -1,0 +1,8 @@
+Instruction:
+All the files inside the source directory has to be in the same directory to run the program.
+To run the program, open the html file, it will redirect to the browser where the program runs.
+Now you can create, translate, scale the objects on the canvas and even rotate the scene as mentioned in the report.
+
+Notable effect:
+Since in my browser window.close() doesn’t work, as it gives error, it can’t close the JavaScript opened file. 
+So I used window.location.replace(’html file location’) to reset the whole program from beginning instead of closing the window.
