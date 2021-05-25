@@ -1,0 +1,13 @@
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+canvas{
+    float: left;
+    display: inline-block;
+}
+.info{
+    padding: 10px;
+    float: left;
+}
